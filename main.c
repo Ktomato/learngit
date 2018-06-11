@@ -11,6 +11,7 @@ int main(void)
 	int b = 10;
 	int sum = add(a,b);
 	int sum1 = mysub(a,b);
-	printf("init here %d %d\n",sum,sum1);
+	int sum2 = mydiv(a,b);
+	printf("init here %d %d %d\n",sum,sum1,sum2);
 	return 0;
 }
